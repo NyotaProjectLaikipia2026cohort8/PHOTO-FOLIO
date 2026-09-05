@@ -504,7 +504,7 @@ body{
 
 <!-- REGISTER -->
 
-<div id="registerOverlay" class="register-overlay hidden">
+<div id="registerOverlay" class="register-overlay">
 
     <div class="register-box">
 
@@ -548,7 +548,9 @@ body{
                 </div>
 
                 <div class="header-status">
-                    <span id="connectionStatus" style="color: rgb(143, 240, 200);">● Online</span>
+                    <span id="connectionStatus">
+                        Connecting...
+                    </span>
                 </div>
 
             </div>
@@ -557,7 +559,9 @@ body{
 
         <div class="header-user">
 
-            👤 <span id="userDisplay">sam_kabz_</span>
+            👤 <span id="userDisplay">
+                Guest
+            </span>
 
         </div>
 
@@ -566,7 +570,7 @@ body{
 
     <!-- MESSAGES -->
 
-    <div id="messages" class="messages"><div class="message-row sent"><div class="message-bubble"><div class="message-name">sam_kabz_</div><img class="chat-image" src="https://drive.google.com/uc?export=view&amp;id=1DqtfhH79b8pH34Drsn6ZNMPbvF8RxNex" alt="Image unavailable" loading="lazy" style="opacity: 0.5;"><div class="message-time">10:46 PM</div></div></div><div class="message-row"><div class="message-bubble"><div class="message-name">LIAM</div><div class="message-text">😂mic check one two</div><div class="message-time">10:48 PM</div></div></div><div class="message-row sent"><div class="message-bubble"><div class="message-name">sam_kabz_</div><img class="chat-image" src="https://drive.google.com/uc?export=view&amp;id=1rtmAgf5B0Y_rifj3ZU6hgXJ00Y8tDH54" alt="Image unavailable" loading="lazy" style="opacity: 0.5;"><div class="message-text">mic check one two over!</div><div class="message-time">10:48 PM</div></div></div><div class="message-row"><div class="message-bubble"><div class="message-name">LIAM</div><img class="chat-image" src="https://drive.google.com/thumbnail?id=1O9WxPTK7oWNZlubbqvBqi9a4dwzWuR7A&amp;sz=w1200" alt="Shared image" loading="lazy"><div class="message-time">11:27 PM</div></div></div><div class="message-row"><div class="message-bubble"><div class="message-name">LIAM</div><img class="chat-image" src="https://drive.google.com/thumbnail?id=13n4ik5DQs60H3ogZYGiNPHX8nUZW3cKX&amp;sz=w1200" alt="Shared image" loading="lazy"><div class="message-time">12:07 AM</div></div></div><div class="message-row"><div class="message-bubble"><div class="message-name">LIAM</div><div class="message-text">😀OOH IT WORKS!!</div><div class="message-time">12:08 AM</div></div></div><div class="message-row sent"><div class="message-bubble"><div class="message-name">sam_kabz_</div><img class="chat-image" src="https://drive.google.com/thumbnail?id=1x4LARCeYOzRaEqxD9u53joZOMzRQ6wk8&amp;sz=w1200" alt="Shared image" loading="lazy"><div class="message-time">12:08 AM</div></div></div><div class="message-row"><div class="message-bubble"><div class="message-name">sammy's nickname</div><img class="chat-image" src="https://drive.google.com/thumbnail?id=15jWva2p3Dbmy8FCddSzXpwteq47HY53u&amp;sz=w1200" alt="Shared image" loading="lazy"><div class="message-time">10:32 PM</div></div></div></div>
+    <div id="messages" class="messages"></div>
 
 
     <!-- TYPING -->
@@ -719,7 +723,7 @@ body{
  Google Apps Script Web App deployment.
 */
 const API_URL =
-"https://script.google.com/macros/s/AKfycbwkhHc7BhIzqgOd9RSBEr9dVyYHF1GpxqYXTa7NLJqzaHKmuuk5HBX0zi6i0VeBY1sd/exec";
+"https://script.google.com/macros/s/AKfycbyX6LQnFHqPySpKc__sX34P-Kj_iJGGAvwkSyX_GVy8YCwFO_4Q2aLzGqmelpZG7apy/exec";
 
 const ROOM_ID = "general";
 const AI_NAME = "Youth Assistant 🤖";
